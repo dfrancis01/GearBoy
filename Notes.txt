@@ -1,2 +1,7 @@
+Unity 3D - Pick Up Item Tutorial - Part 1
+https://www.youtube.com/watch?v=GtMo-lHljGU
+
 sound Fx Generator
 http://www.superflashbros.net/as3sfxr/
+
+Unity Version 5.4.0f3
