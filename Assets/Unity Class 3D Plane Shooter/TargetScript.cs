@@ -2,9 +2,10 @@
 using System.Collections;
 
 public class TargetScript : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
+    [SerializeField]
+    private GameObject particalEffect;
+    // Use this for initialization
+    void Start () {
 	
 	}
 	
@@ -18,6 +19,8 @@ public class TargetScript : MonoBehaviour {
         {
             Destroy(other.gameObject);
         }
+        GameObject.Instantiate(particalEffect, this.transform.position, this.transform.rotation);
         Destroy(this.gameObject);
+        
     }
 }
